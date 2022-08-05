@@ -1,0 +1,11 @@
+{
+   "name": "GithubStats",
+   "version": "1.0.0",
+   "description": "Fetches github statistics",
+   "authors": [
+      {
+         "name": "Attic",
+         "id": "315852258854174720"
+      }
+   ]
+}
