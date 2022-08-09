@@ -3,7 +3,7 @@
 
 Allows you to get statistics of a github repo and a github user profile. 
 
-[[Download]](raw.github.com)
+[[Download]](https://raw.githubusercontent.com/donato-fiore/enmityaddons/main/Plugins/GithubStats/dist/GithubStats.js)
 
 ####
 
