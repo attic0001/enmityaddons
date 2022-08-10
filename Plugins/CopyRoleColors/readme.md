@@ -3,7 +3,7 @@
 
 Allows you to get statistics of a github repo and a github user profile. 
 
-[[Download]]([https://raw.githubusercontent.com/attic0001/enmityaddons/main/Plugins/CopyRoleColors/dist/CopyRoleColors.js])
+[[Download]](([https://raw.githubusercontent.com/attic0001/enmityaddons/main/Plugins/CopyRoleColors/dist/CopyRoleColors.js]))
 
 ####
 
