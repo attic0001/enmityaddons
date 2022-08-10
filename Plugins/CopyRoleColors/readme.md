@@ -1,7 +1,7 @@
 
-# Github Stats
+# Copy Role Colors
 
-Allows you to get statistics of a github repo and a github user profile. 
+Get the hex value of the top role color.
 
 [[Download]]([https://raw.githubusercontent.com/donato-fiore/enmityaddons/main/Plugins/CopyRoleColors/dist/CopyRoleColors.js])
 
