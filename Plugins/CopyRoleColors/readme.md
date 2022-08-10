@@ -3,7 +3,7 @@
 
 Allows you to get statistics of a github repo and a github user profile. 
 
-[[Download]]([]))
+[[Download]]([])
 
 ####
 
