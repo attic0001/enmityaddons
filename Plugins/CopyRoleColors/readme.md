@@ -3,7 +3,7 @@
 
 Get the hex value of the top role color.
 
-[[Download]]([https://raw.githubusercontent.com/attic0001/enmityaddons/main/Plugins/CopyRoleColors/dist/CopyRoleColors.js])
+[Download]([https://raw.githubusercontent.com/attic0001/enmityaddons/main/Plugins/CopyRoleColors/dist/CopyRoleColors.js])
 
 ####
 
