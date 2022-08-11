@@ -26,6 +26,6 @@
       "esbuild-windows-64": "^0.14.21"
    },
    "dependencies": {
-      "enmity": "*"
+      "enmity": "^1.2.2"
    }
 }
