@@ -1,0 +1,15 @@
+{
+   "name": "MuteNewGuilds",
+   "version": "1.0.0",
+   "description": "Automatically mutes newly joined guilds.",
+   "authors": [
+      {
+         "name": "Attic",
+         "id": "315852258854174720"
+      },
+      {
+         "name": "fiore",
+         "id": "396496265430695947"
+      }
+   ]
+}
