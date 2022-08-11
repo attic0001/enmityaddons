@@ -1,0 +1,15 @@
+{
+   "name": "CopyServerIcon",
+   "version": "1.0.0",
+   "description": "Adds option to copy role color in the User Profile context menu.",
+   "authors": [
+      {
+         "name": "Attic",
+         "id": "315852258854174720"
+      },
+      {
+         "name": "fiore",
+         "id": "396496265430695947"
+      }
+   ]
+}
