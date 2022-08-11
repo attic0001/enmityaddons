@@ -10,7 +10,7 @@ Mute newly joined servers.
 
 ## Features
 
-- Copy the user's top role color in hex format from their user profile overflow context menu
+- Automatically mute servers on join.
 
 ## Authors
 
