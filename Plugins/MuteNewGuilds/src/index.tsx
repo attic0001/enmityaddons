@@ -5,20 +5,17 @@ import { getByProps } from 'enmity/metro';
 import Settings from './settings';
 import { get } from 'enmity/api/settings';
 import { React } from 'enmity/metro/common';
+import { Dispatcher } from 'enmity/metro/common';
 
 const updateGuildNotificationSettings = getByProps('updateGuildNotificationSettings').updateGuildNotificationSettings;
-const FluxDispatcher = getByProps(
-   "_currentDispatchActionType",
-   "_subscriptions",
-   "_waitQueue"
-);
+
 const Patcher = create('mute-new-guild');
 
 const MuteNewGuilds: Plugin = {
    ...manifest,
 
    onStart() {
-      Patcher.after(FluxDispatcher, 'dispatch', (_, args, res) => {
+      Patcher.after(Dispatcher, 'dispatch', (_, args, res) => {
          if (args[0].type !== "INVITE_ACCEPT_SUCCESS") return res;
 
          const guildID = args[0]?.invite?.guild?.id;
