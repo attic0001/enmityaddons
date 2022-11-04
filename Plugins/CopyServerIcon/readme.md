@@ -1,5 +1,5 @@
 
-# Copy Server Icon
+# Copy Server Icon [WIP]
 
 Get the picture link of any server icon
 
