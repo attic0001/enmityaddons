@@ -8,6 +8,8 @@ import { React } from 'enmity/metro/common';
 import { Dispatcher } from 'enmity/metro/common';
 
 const updateGuildNotificationSettings = getByProps('updateGuildNotificationSettings').updateGuildNotificationSettings;
+const Guilds = getByProps('getGuild');
+
 
 const Patcher = create('mute-new-guild');
 
@@ -19,6 +21,7 @@ const MuteNewGuilds: Plugin = {
          if (args[0].type !== "INVITE_ACCEPT_SUCCESS") return res;
 
          const guildID = args[0]?.invite?.guild?.id;
+         if (!Guilds.getGuild(guildID)) return res;
          updateGuildNotificationSettings(guildID, {
             muted: get('MuteNewGuilds', 'muted', true),
             suppress_everyone: get('MuteNewGuilds', 'suppress_everyone', false),
